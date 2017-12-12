@@ -21,6 +21,7 @@
 
 * [Part3:  Jupyter Notebook:  Using AWS Lambda and AWS Step Functions](https://github.com/noahgift/web_scraping_python/blob/master/notebooks/Web_Scraping_in_Python_for_AI_Fun_Profit_(Coordination%20Tasks).ipynb)
 
+![Step Function Workflow](https://user-images.githubusercontent.com/58792/33914810-c9712014-df54-11e7-8f80-1faa9e644760.png)
 
 ## C.  Wiring Results into A Machine Learning Pipeline (<span style="color:green">Modeling the Work</span>)
 
