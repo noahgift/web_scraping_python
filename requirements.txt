@@ -1,0 +1,13 @@
+requests
+jupyter
+pandas
+seaborn
+scipy
+plotly
+cufflinks
+BeautifulSoup4
+scrapy
+chalice
+pylint
+python-json-logger
+boto3

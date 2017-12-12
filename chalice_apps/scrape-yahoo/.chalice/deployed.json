@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "api_handler_name": "scrape-yahoo-dev",
+    "api_handler_arn": "arn:aws:lambda:us-east-1:561744971673:function:scrape-yahoo-dev",
+    "lambda_functions": {
+      "scrape-yahoo-dev-timed_handler": {
+        "arn": "arn:aws:lambda:us-east-1:561744971673:function:scrape-yahoo-dev-timed_handler",
+        "type": "scheduled_event"
+      },
+      "scrape-yahoo-dev-return_player_urls": {
+        "arn": "arn:aws:lambda:us-east-1:561744971673:function:scrape-yahoo-dev-return_player_urls",
+        "type": "pure_lambda"
+      },
+      "scrape-yahoo-dev-birthplace_from_urls": {
+        "arn": "arn:aws:lambda:us-east-1:561744971673:function:scrape-yahoo-dev-birthplace_from_urls",
+        "type": "pure_lambda"
+      },
+      "scrape-yahoo-dev-create_s3_file_from_json": {
+        "arn": "arn:aws:lambda:us-east-1:561744971673:function:scrape-yahoo-dev-create_s3_file_from_json",
+        "type": "pure_lambda"
+      }
+    },
+    "backend": "api",
+    "chalice_version": "1.1.0",
+    "rest_api_id": "bt98uzs1cc",
+    "api_gateway_stage": "api",
+    "region": "us-east-1"
+  }
+}
