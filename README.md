@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/noahgift/web_scraping_python.svg?style=svg)](https://circleci.com/gh/noahgift/web_scraping_python)
 
 
-# Web Scraping in Python for AI, Fun and Profit
+# Serverless Web Scraping in Python for AI, Fun and Profit (Using Step Functions and Lambdas)
 
 *Web Scraping for AI/ML consists of three phases:*
 
