@@ -1,4 +1,5 @@
 import logging
+import os
 import csv
 from io import StringIO
 
@@ -6,7 +7,9 @@ import boto3
 from bs4 import BeautifulSoup
 import requests
 from chalice import (Chalice, Rate)
+from slackclient import SlackClient
 
+SLACK_TOKEN = os.environ["SLACK_API_TOKEN"]
 APP_NAME = 'scrape-yahoo' 
 app = Chalice(app_name=APP_NAME)
 app.log.setLevel(logging.DEBUG)
@@ -125,6 +128,19 @@ def create_s3_file_from_json(event, context):
     res = create_s3_file(data=event)
     app.log.info(f"response of putting file: {res}")
     return True
+
+@app.lambda_function()
+def send_message(event, context):
+    """Send a message to a channel"""
+
+    slack_client = SlackClient(SLACK_TOKEN)
+    res = slack_client.api_call(
+      "chat.postMessage",
+      channel="#general",
+      text=event
+    )
+    return res
+
 
 #This is a timed lambda
 @app.schedule(Rate(5, unit=Rate.MINUTES))
