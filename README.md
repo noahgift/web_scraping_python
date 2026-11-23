@@ -25,3 +25,11 @@ This material is also covered in [Chapter 7 of Pragmatic AI](https://www.amazon.
 ## C.  Wiring Results into A Machine Learning Pipeline (<span style="color:green">Modeling the Work</span>)
 
 * TBD
+
+<!-- funnel:start -->
+---
+
+**Learn Python for data and AI engineering:** [AI Debugging and Test-Driven Fixes (Coursera)](https://www.coursera.org/learn/ai-debugging?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=web_scraping_python) · [Applied Python Data Engineering, Duke (Coursera)](https://www.coursera.org/specializations/python-data-engineering?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=web_scraping_python) · [Data Engineering with Python and Linux program (edX)](https://www.edx.org/certificates/professional-certificate/ai-data-engineering-with-python-and-linux?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=web_scraping_python)
+
+More courses from [Noah Gift](https://github.com/noahgift) and Pragmatic AI Labs.
+<!-- funnel:end -->
