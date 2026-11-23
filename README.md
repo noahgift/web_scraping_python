@@ -25,3 +25,7 @@ This material is also covered in [Chapter 7 of Pragmatic AI](https://www.amazon.
 ## C.  Wiring Results into A Machine Learning Pipeline (<span style="color:green">Modeling the Work</span>)
 
 * TBD
+
+<!-- FUNNEL-001 footer: replace web_scraping_python with the repo name -->
+---
+📚 **Learn this hands-on:** [Pragmatic AI Labs courses on Coursera](https://www.coursera.org/partners/pragmatic-ai-labs?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=web_scraping_python) · ✉ [Free newsletter](https://ds500.paiml.com/mailing?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=web_scraping_python)
